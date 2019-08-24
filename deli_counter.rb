@@ -20,4 +20,7 @@ def now_serving(katz_deli)
   if now_serving(katz_deli) == []
    puts "There is nobody waiting to be served!"
   end
+else
+  puts "Currently serving #{name}."
+end
 end
